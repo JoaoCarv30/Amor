@@ -32,10 +32,10 @@ const App = () => {
   const { days, hours, minutes, seconds } = formatTime(timeElapsed);
 
   return (
-    <section className="w-screen h-screen bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white flex flex-col items-center justify-start p-6">
+    <section className="w-screen h-screen  text-white flex flex-col items-center justify-start p-6">
       {/* Texto com contagem de tempo estilizada */}
       <h1 className="font-bold text-5xl sm:text-6xl text-center mb-8">
-        <span className="block mb-2">Tempo juntos</span>
+        <span className="block mb-2">Tempo passado da minha melhor escolha ❤️</span>
         <div className="flex justify-center items-center space-x-6">
           <div className="text-center">
             <div className="text-4xl sm:text-5xl font-extrabold">{days}</div>
