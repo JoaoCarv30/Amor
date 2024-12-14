@@ -35,7 +35,7 @@ const App = () => {
     <section className="w-screen h-screen  text-white flex flex-col items-center justify-start p-6">
       {/* Texto com contagem de tempo estilizada */}
       <h1 className="font-bold text-4xl sm:text-6xl text-center mb-8">
-        <span className="block mb-2 ">Tempo passado da minha melhor escolha ❤️</span>
+        <span className="block mb-2 ">Cada segundo desde a minha melhor escolha ❤️</span>
         <div className="flex justify-center items-center space-x-3">
           <div className="text-center">
             <div className="text-4xl sm:text-5xl font-extrabold">{days}</div>
