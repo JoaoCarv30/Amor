@@ -1,23 +1,5 @@
 import { useState, useEffect } from "react";
 
-// Imagens importadas
-import image1 from '../../us/src/assets/1.jpg';
-import image2 from '../../us/src/assets/2.jpg';
-import image3 from '../../us/src/assets/3.jpg';
-import image4 from '../../us/src/assets/4.jpg';
-import image5 from '../../us/src/assets/5.jpg';
-import image6 from '../../us/src/assets/6.jpg';
-import image7 from '../../us/src/assets/7.jpg';
-import image8 from '../../us/src/assets/8.jpg';
-import image9 from '../../us/src/assets/9.jpg';
-import image10 from '../../us/src/assets/10.jpg';
-import image11 from '../../us/src/assets/11.jpg';
-import image12 from '../../us/src/assets/12.jpg';
-import image13 from '../../us/src/assets/13.jpg';
-import image14 from '../../us/src/assets/14.jpg';
-import image15 from '../../us/src/assets/15.jpg';
-import image16 from '../../us/src/assets/16.jpg';
-import image17 from '../../us/src/assets/17.jpg';
 
 const App = () => {
   const startDate = new Date(2024, 7, 17, 18, 30).getTime(); // Garantir que seja o timestamp em milissegundos
