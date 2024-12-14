@@ -20,12 +20,12 @@ import image16 from '../../us/src/assets/16.jpg';
 import image17 from '../../us/src/assets/17.jpg';
 
 const App = () => {
-  const startDate = new Date(2024, 7, 17, 18, 30); // 17 de agosto de 2024, 18:30
-  const [timeElapsed, setTimeElapsed] = useState(0);
+  const startDate = new Date(2024, 7, 17, 18, 30).getTime(); // Garantir que seja o timestamp em milissegundos
+  const [timeElapsed, setTimeElapsed] = useState<number>(0); // Definir tipo de state como number
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const now = new Date();
+      const now = new Date().getTime(); // Também pegando o timestamp em milissegundos
       const elapsed = now - startDate;
       setTimeElapsed(elapsed);
     }, 1000);
@@ -33,7 +33,7 @@ const App = () => {
     return () => clearInterval(interval); // Limpa o intervalo quando o componente for desmontado
   }, []);
 
-  const formatTime = (time) => {
+  const formatTime = (time: number) => { // Definir tipo de parâmetro 'time' como number
     const seconds = Math.floor(time / 1000);
     const minutes = Math.floor(seconds / 60);
     const hours = Math.floor(minutes / 60);
@@ -50,10 +50,10 @@ const App = () => {
   const { days, hours, minutes, seconds } = formatTime(timeElapsed);
 
   return (
-    <section className="w-screen h-screen  text-white flex flex-col items-center justify-start p-6">
+    <section className="w-screen h-screen bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white flex flex-col items-center justify-start p-6">
       {/* Texto com contagem de tempo estilizada */}
       <h1 className="font-bold text-5xl sm:text-6xl text-center mb-8">
-        <span className="block mb-2">Dias passados da minha melhor escolha ❤️</span>
+        <span className="block mb-2">Tempo juntos</span>
         <div className="flex justify-center items-center space-x-6">
           <div className="text-center">
             <div className="text-4xl sm:text-5xl font-extrabold">{days}</div>
