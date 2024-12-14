@@ -80,55 +80,55 @@ const App = () => {
       {/* Galeria de imagens responsiva */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image1} alt="Imagem 1" />
+          <img className="object-cover w-full h-full rounded-lg"  src="/assets/1.jpg" alt="Imagem 1" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image2} alt="Imagem 2" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/2.jpg" alt="Imagem 2" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image3} alt="Imagem 3" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/3.jpg" alt="Imagem 3" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image4} alt="Imagem 4" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/4.jpg" alt="Imagem 4" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image5} alt="Imagem 5" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/5.jpg" alt="Imagem 5" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image6} alt="Imagem 6" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/6.jpg" alt="Imagem 6" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image7} alt="Imagem 7" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/7.jpg" alt="Imagem 7" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image8} alt="Imagem 8" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/8.jpg" alt="Imagem 8" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image9} alt="Imagem 9" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/9.jpg" alt="Imagem 9" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image10} alt="Imagem 10" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/10.jpg" alt="Imagem 10" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image11} alt="Imagem 11" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/11.jpg" alt="Imagem 11" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image12} alt="Imagem 12" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/12.jpg" alt="Imagem 12" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image13} alt="Imagem 13" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/13.jpg" alt="Imagem 13" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image14} alt="Imagem 14" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/14.jpg" alt="Imagem 14" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image15} alt="Imagem 15" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/15.jpg" alt="Imagem 15" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image16} alt="Imagem 16" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/16.jpg" alt="Imagem 16" />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-3">
-          <img className="object-cover w-full h-full rounded-lg" src={image17} alt="Imagem 17" />
+          <img className="object-cover w-full h-full rounded-lg" src="/assets/17.jpg" alt="Imagem 17" />
         </div>
       </div>
     </section>
